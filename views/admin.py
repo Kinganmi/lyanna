@@ -387,9 +387,9 @@ async def get_url_info(request):
     return json({
         'ok': 0,
         'info': {
-            'title': extracted.title,
+            'title': extracted.title or '网页',
             'url': extracted.url or url,
-            'abstract': extracted.description
+            'abstract': extracted.description or url
         }
     })
 
