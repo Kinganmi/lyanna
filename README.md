@@ -8,8 +8,8 @@
 My Blog Using Sanic
 
 [查看文档 📖](https://dongweiming.github.io/lyanna/)
-
-## 版本提示
+ 
+## 版本提示 
 
 3.0版本开始已经使用了最新的Python3.8语法，所以如果你不方便升级CPython请使用2.X版本
 
